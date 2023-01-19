@@ -19,8 +19,8 @@ FIND {champak} RETURNING account(name, phone)
 
 
 
-List<List<SObject>> s = [FIND 'Champak' IN ALL FIELDS 
-                                      RETURNING Account(Name), Contact(FirstName,LastName)];
+**List<List<SObject>> s = [FIND 'Champak' IN ALL FIELDS 
+                                      RETURNING Account(Name), Contact(FirstName,LastName)];**
 
 system.debug(s);
 List<Account> accounts=s[0];
