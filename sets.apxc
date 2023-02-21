@@ -1,0 +1,6 @@
+
+Set<Account> myString = new Set<Account>();
+Boolean result = myString.add(new Account(Name='Chmpak'));
+myString.add(new Account(Name='Chmpak'));
+myString.add(new Account(Name='Champak'));
+System.debug(mystring);
